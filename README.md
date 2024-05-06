@@ -8,4 +8,4 @@ How to run this:
 5. Open a new tab and then run the extension.
 6. Enjoy.
 
-Video link: `<TODO>`
+Video link: [click here](https://drive.google.com/file/d/14BwTntsXmejxBa1uqS9sDemZGqommCrR/view?usp=sharing)
