@@ -1,9 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "Hello World!",
+  "name": "Linkedin Scraper",
   "description": "Base Level Extension",
   "version": "1.0",
-  "permissions": ["tabs"],
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
   "action": {
     "default_popup": "hello.html",
     "default_icon": "icon.png"
