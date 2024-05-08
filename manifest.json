@@ -6,11 +6,13 @@
   "permissions": [
     "tabs",
     "activeTab",
-    "scripting"
+    "scripting",
+    "offscreen"
   ],
   "host_permissions": [
     "https://*/*",
-    "http://*/*"
+    "http://*/*",
+    "http://localhost:5000/*"
   ],
   "action": {
     "default_popup": "hello.html",

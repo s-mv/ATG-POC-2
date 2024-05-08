@@ -5,6 +5,8 @@ const app = express();
 const db = require("./models");
 const { Profile } = db;
 
+app.use(bodyParser.json());
+
 app.post("/send_profile", async (req, res) => {
     const { name, connections, location, followers, bio } = req.body;
     const profile = await Profile.create({
@@ -15,7 +17,7 @@ app.post("/send_profile", async (req, res) => {
         bio
     });
     console.log("done");
-    res.json(profile);
+    res.json({ "done": true });
 });
 
 app.get('/profiles', async (req, res) => {
